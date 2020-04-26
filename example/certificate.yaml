@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: example-tls
+spec:
+  secretName: kuard-51charts-tls
+  commonName: 51charts.com
+  dnsNames:
+    - "kuard.51charts.com"
+  issuerRef:
+    name: letsencrypt-staging
+    kind: ClusterIssuer
