@@ -113,6 +113,11 @@ spec:
 ```sh 
 $ kubectl apply -f ingress.yaml
 ```
+```sh
+$ kubectl get ing
+NAME    HOSTS                ADDRESS         PORTS     AGE
+kuard   kuard.51charts.com   192.168.2.195   80, 443   122m
+```
 
 测试检查：
 ```sh
