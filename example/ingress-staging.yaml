@@ -7,14 +7,14 @@ metadata:
     cert-manager.io/issuer: "letsencrypt-staging"
 spec:
   tls:
-    - hosts:
-        - kuard.51charts.com
-      secretName: kuard-51charts-tls
+  - hosts:
+    - kuard.51charts.com
+    secretName: kuard-51charts-tls
   rules:
-    - host: kuard.51charts.com
-      http:
-        paths:
-          - path: /
-            backend:
-              serviceName: kuard
-              servicePort: 80
+  - host: kuard.51charts.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: kuard
+          servicePort: 80
