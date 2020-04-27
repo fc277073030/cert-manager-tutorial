@@ -2,8 +2,7 @@
 cert-manager是本地Kubernetes证书管理控制器。它可以帮助从各种来源颁发证书，例如Let's Encrypt， HashiCorp Vault， Venafi，简单的签名密钥对或自签名。
 
 它将确保证书有效并且是最新的，并在到期前尝试在配置的时间续订证书。
-![05e7105498ab6b92c8c6ad7bc8383ebf.png](evernotecid://481E08E3-B0BC-4AF0-BD1D-F5A91D581CF3/appyinxiangcom/15709100/ENResource/p946)
-
+![avatar](img/cert-manager.jpg)
 ## 组件
 
 * [Issuer](https://cert-manager.io/docs/concepts/issuer/) 
